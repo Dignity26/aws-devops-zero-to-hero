@@ -34,9 +34,9 @@ phases:
       # - command
   build:
     commands:
-      - cd day-14/sample-python-app
+      - cd day-14/simple-python-app
       - echo "Building docker image"
-      - docker build -t "$DOCKER_URL/$DOCKER_USERNAME/python-app:latest"
+      - docker build -t "$DOCKER_URL/$DOCKER_USERNAME/python-app:latest" .
       - docker push "$DOCKER_URL/$DOCKER_PASSWD/python-app:latest"
   post_build:
     commands:
