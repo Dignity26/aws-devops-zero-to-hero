@@ -5,4 +5,4 @@ set -e
 docker pull dignity26/python-app
 
 # Run the Docker image as a container
-docker run -d -p 6000:6000 dignity26/python-app
+docker run -d -p 5000:6000 dignity26/python-app
