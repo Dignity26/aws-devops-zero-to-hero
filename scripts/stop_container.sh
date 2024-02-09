@@ -1,5 +1,5 @@
 #!/bin/bash
-#docker rm $(docker ps -aq)
+set -e
 
 # Stop the running container (if any)
 echo "Hi"
